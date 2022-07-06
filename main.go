@@ -10,9 +10,11 @@ type dog struct {
 func (a dog) getFoodPerMonth() float64 {
 	return a.weight / 5 * 10
 }
+
 func (a dog) String() string {
 	return "Собака"
 }
+
 func (a dog) getAnimalName() string {
 	return a.name
 }
@@ -25,6 +27,7 @@ type cat struct {
 func (a cat) getFoodPerMonth() float64 {
 	return a.weight * 7
 }
+
 func (a cat) String() string {
 	return "Кіт"
 }
